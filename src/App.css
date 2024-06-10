@@ -1,5 +1,32 @@
 .App {
+  justify-self: center;
+  display: flex;
+  width: 100%;
+}
+
+.ETableCellText {
+  background-color: #af8f6f;
+  color: white !important;
+  font-size: 16px !important;
+}
+
+.ETableCellVal {
+  text-align: right !important;
+  font-size: 18px !important;
+}
+
+.CalApp {
+  width: 50%;
+  border: 2px solid #ccc;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  background-color: #d8efd3;
+}
+
+.CalHeading {
   text-align: center;
+  color: #686d76;
 }
 
 .App-logo {
@@ -14,7 +41,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +52,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #6b8a7a;
 }
 
 @keyframes App-logo-spin {
